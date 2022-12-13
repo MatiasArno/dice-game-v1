@@ -1,0 +1,121 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    z-index: 0;
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .centerAN {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .actualNumber {
+        width: 13.5%;
+        height: 24.63%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 18vmin;
+        font-weight: bolder;
+
+        background: white;
+    }
+
+    .center {
+        width: 96%;
+        height: 96%;
+        display: flex;
+        flex-wrap: wrap;
+
+        background: lightgray;
+    }
+
+        .title {
+            width: 100%;
+            height: 27%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: steelblue;
+            color: white;
+            font-size: 13vmin;
+            font-weight: bolder;
+            text-shadow: .03em .03em 0 rgb(255, 89, 89);
+        }
+
+        .visor {
+            width: 100%;
+            height: 73%;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+            .sideVisor {
+                width: 36%;
+                height: 72%;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-size: 27vmin;
+                font-weight: bold;
+            }
+
+            #leftVisor {
+                border-radius: 12px 0 0 0 ;
+                background: rgb(255, 255, 166);
+            }
+
+            #rightVisor {
+                border-radius: 0 0 12px 0;
+                background: rgb(134, 200, 255);
+            }
+
+                .name {
+                    width: 20%;
+                    height: 9%;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+
+                    border-radius: 12px;
+                    color: white;
+                    font-size: 7.2vmin;
+                    font-weight: bolder;
+                }
+
+                #player {
+                    left: 9%;
+                    top: 38%;
+                    background: rgb(255, 255, 0);
+                }
+
+                #robot {
+                    right: 9%;
+                    bottom: 13%;
+                    background: steelblue;
+                }

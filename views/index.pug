@@ -1,0 +1,30 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+        title MURTEN | I 4.0 
+        link(rel="stylesheet", href="/css/styles.css")
+
+    body
+
+        div(class="centerAN")
+
+            div(class="actualNumber") #{ actualNumber }
+
+        div(class="center")
+
+            div(class="title") #{ result }
+
+            div(class="visor")
+
+                div(class="sideVisor", id="leftVisor")  #{ player }
+
+                    div(class="name", id="player") PLAYER
+
+                div(class="sideVisor", id="rightVisor") #{ robot }
+
+                    div(class="name", id="robot") ROBOT
+
+        script(src="/reload/reload.js")
