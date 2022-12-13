@@ -4,7 +4,6 @@
   "description": "",
   "main": "HTTP_SERVER.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon HTTP_SERVER.js"
   },
   "author": "",

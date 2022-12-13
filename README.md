@@ -1,3 +1,8 @@
-# APLICACIÓN PARA COMUNICAR POR TCP/IP SOCKETS DISTINTOS PUERTOS DE LA MISMA PC, O CON OTRAS PCS.
+# APP PARA COMUNICACIÓN VÍA SOCKETS TCP/IP
 
-# Para poder usarla, ejecutar en node: node [NOMBRE DE LA APP JS] [HOST] [PORT]
+- Entre puertos de la misma PC o de otras PC's.
+- Cualquier dispositivo que tenga protocolo TCP/IP.
+
+# Instrucciones de uso 
+
+- Ejecutar en la terminal: npm start.
